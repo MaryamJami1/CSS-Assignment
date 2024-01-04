@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: border-box;
+}
+
+
+/* navbar section */
+.navbar {
+    height: 350px;
+    width: 100%;
+    background-image: url(photographer.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#text {
+    color: white;
+    border: 2px solid white;
+    height: 80px;
+    width: 280px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 15px;
+}
+
+
+/* panel section*/
+.panel-border {
+    height: 88px;
+    width: 100%;
+    background-color: rgba(156, 148, 148, 0.308);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-border a {
+    color: rgba(0, 0, 0, 0.837);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.panel-border a:hover {
+    border: 3px solid rgb(107, 106, 106);
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* portfolio section */
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#image1 {
+    height: 500px;
+    width: 1000px;
+    background-image: url(bench.jpg);
+    background-size: cover;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+
+#image2 {
+    height: 500px;
+    width: 1000px;
+    background-image: url(sea\ shell.jpeg);
+    background-size: cover;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+
+#image3 {
+    height: 500px;
+    width: 1000px;
+    background-image: url(rock\ fall.jpg);
+    background-size: cover;
+    margin: 15px;
+    padding: 15px;
+
+}
